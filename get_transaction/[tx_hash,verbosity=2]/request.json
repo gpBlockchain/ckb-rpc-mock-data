@@ -1,0 +1,9 @@
+{
+  "id": 42,
+  "jsonrpc": "2.0",
+  "method": "get_transaction",
+  "params": [
+    "0xe180977dcc285677ce7dd672bd3715493b336aa027ff11b02ea945de47da7c88",
+    "0x2"
+  ]
+}

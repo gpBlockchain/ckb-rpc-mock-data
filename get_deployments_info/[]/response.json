@@ -1,0 +1,23 @@
+{
+  "id": 42,
+  "jsonrpc": "2.0",
+  "result": {
+    "epoch": "0x1",
+    "hash": "0xa5f5c85987a15de25661e5a214f2c1449cd803f071acc7999820f25246471f40",
+    "deployments": {
+      "testdummy": {
+        "bit": 1,
+        "min_activation_epoch": "0x0",
+        "period": "0xa",
+        "since": "0x0",
+        "start": "0x0",
+        "state": "failed",
+        "timeout": "0x0",
+        "threshold": {
+          "numer": "0x3",
+          "denom": "0x4"
+        }
+      }
+    }
+  }
+}
