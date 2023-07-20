@@ -1,0 +1,23 @@
+{
+  "id": 42,
+  "jsonrpc": "2.0",
+  "result": {
+    "block_hash": "0x10639e0895502b5688a6be8cf69460d76541bfa4821629d86d62ba0aae3f9606",
+    "transactions_proof": {
+      "indices": [
+        "0x1"
+      ],
+      "lemmas": [
+        "0xf8de3bb47d055cdf460d93a2a6e1b05f7432f9777c8c474abf4eec1d4aee5d37"
+      ]
+    },
+    "witnesses_proof": {
+      "indices": [
+        "0x1"
+      ],
+      "lemmas": [
+        "0xab266d8849b051c781265ad99e4e21340542de0887f2849be5d8a63ddf35d7d1"
+      ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": 42,
+  "jsonrpc": "2.0",
+  "method": "verify_transaction_and_witness_proof",
+  "params": [
+    {
+      "block_hash": "0xadaa049a601126abb71b08b4d7d522bd26ce50fe68ac75d7ebedd65b41ad8c1d",
+      "transactions_proof": {
+        "indices": [
+          "0xd",
+          "0x16",
+          "0x15",
+          "0xf",
+          "0x14",
+          "0xb",
+          "0x11",
+          "0xe",
+          "0x12",
+          "0x13",
+          "0x10",
+          "0xc"
+        ],
+        "lemmas": []
+      },
+      "witnesses_proof": {
+        "indices": [
+          "0x14",
+          "0x16",
+          "0xc",
+          "0xe",
+          "0x15",
+          "0xb",
+          "0x13",
+          "0x10",
+          "0xf",
+          "0x11",
+          "0x12",
+          "0xd"
+        ],
+        "lemmas": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "jsonrpc":"2.0",
+  "method":"get_transaction_and_witness_proof",
+  "params":[["0x8f8c79eb6671709633fe6a46de93c0fedc9c1b8a6527a18d3983879542635c9f"],"0x10639e0895502b5688a6be8cf69460d76541bfa4821629d86d62ba0aae3f9606"],
+  "id":42
+}
