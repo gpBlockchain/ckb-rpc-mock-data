@@ -1,0 +1,6 @@
+{
+  "jsonrpc":"2.0",
+  "method":"get_header",
+  "params":["0xd5ac7cf8c34a975bf258a34f1c2507638487ab71aa4d10a9ec73704aa3abf9cd","0x0"],
+  "id":42
+}
