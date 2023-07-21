@@ -6,9 +6,8 @@ import os
 app = Flask(__name__, template_folder='templates')
 
 current_dir = os.path.dirname(__file__)
-
-
-file_storage_root = os.path.dirname(current_dir)
+parent_dir = os.path.dirname(current_dir)
+file_storage_root = os.path.join(parent_dir,'mock')
 
 @app.route('/')
 def index():
