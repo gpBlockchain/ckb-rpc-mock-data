@@ -2,8 +2,8 @@
 
 #### start 
 ```shell
-pip install flask
-python -m app
+pip install -r requirements.txt
+python api/index.py
 ```
 
 ### api
