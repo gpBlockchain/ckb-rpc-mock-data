@@ -1,5 +1,23 @@
 ### CKB RPC Mock Data
 
+#### start 
+```shell
+pip install flask
+python -m app
+```
+
+### api
+
+#### get test
+click link  http://localhost:5000/
+
+#### /test/<directory>/<filename>
+
+- get 
+  - get test message 
+- post 
+  - mock ckb rpc ,will check request ,if request == request.json ,return response.json 
+
 #### JS Adapter Demo
 - The function `setupMockRpcTest` is used for initializing mock data.
   - It fetches the RPC mock data based on the `describe` name, such as `get_tip_block_number`, and the test name, such as `[]`.
@@ -16,7 +34,3 @@ describe('get_tip_block_number', function () {
     });
 });
 ```
-
-TODO:
-- add other sdk adpater
-- add sdk test report link
