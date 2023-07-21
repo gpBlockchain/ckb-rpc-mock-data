@@ -19,9 +19,6 @@ click link  http://localhost:5000/
   - mock ckb rpc ,will check request ,if request == request.json ,return response.json 
 
 #### JS Adapter Demo
-- The function `setupMockRpcTest` is used for initializing mock data.
-  - It fetches the RPC mock data based on the `describe` name, such as `get_tip_block_number`, and the test name, such as `[]`.
-
 - When adding new test cases, you only need to focus on the RPC you want to call.
 ```shell
  it("[tx]",async ()=>{
