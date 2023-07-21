@@ -5,8 +5,10 @@ import os
 
 app = Flask(__name__, template_folder='templates')
 
-file_storage_root = os.path.dirname(__file__)
+current_dir = os.path.dirname(__file__)
 
+
+file_storage_root = os.path.dirname(current_dir)
 
 @app.route('/')
 def index():
