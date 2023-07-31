@@ -48,6 +48,7 @@ def test_get(directory, filename):
                     response_data['id'] = post_data['id']
                     return jsonify(response_data)
                 else:
+                    app.logger.error(f"Request data does not match with the data:\n 'expected request':{request_data}\n sdk post':{post_data}" )
                     return jsonify({'id': post_data['id'], 'jsonrpc': '2.0',
                                     "error": f"Request data does not match with the expected data:'request':{request_data},'post':{post_data}", }),POST_REQUEST_NOT_EQ_ERROR
         except Exception as e:
