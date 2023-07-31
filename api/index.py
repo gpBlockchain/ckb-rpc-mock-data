@@ -9,6 +9,9 @@ current_dir = os.path.dirname(__file__)
 parent_dir = os.path.dirname(current_dir)
 file_storage_root = os.path.join(parent_dir,'mock')
 
+POST_REQUEST_NOT_EQ_ERROR = 501
+READ_FILE_NOT_EXIST_ERROR = 502
+DIR_NOT_EXIST_ERROR = 503
 @app.route('/')
 def index():
     # 返回文件列表页面
@@ -46,11 +49,11 @@ def test_get(directory, filename):
                     return jsonify(response_data)
                 else:
                     return jsonify({'id': post_data['id'], 'jsonrpc': '2.0',
-                                    "error": f"Request data does not match with the expected data:'request':{request_data},'post':{post_data}", })
+                                    "error": f"Request data does not match with the expected data:'request':{request_data},'post':{post_data}", }),POST_REQUEST_NOT_EQ_ERROR
         except Exception as e:
-            return jsonify({"error": f"Error while reading the file: {str(e)}"})
+            return jsonify({"error": f"Error while reading the file: {str(e)}"}),READ_FILE_NOT_EXIST_ERROR
     else:
-        return jsonify({"error": "File not found"})
+        return jsonify({"error": "File not found"}),DIR_NOT_EXIST_ERROR
 
 
 if __name__ == '__main__':
