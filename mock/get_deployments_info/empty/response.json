@@ -1,0 +1,23 @@
+{
+    "jsonrpc": "2.0",
+    "result": {
+        "deployments": {
+            "light_client": {
+                "bit": 1,
+                "min_activation_epoch": "0x162c",
+                "period": "0x2a",
+                "since": "0x164f",
+                "start": "0x14e2",
+                "state": "active",
+                "threshold": {
+                    "denom": 4,
+                    "numer": 3
+                },
+                "timeout": "0x15f0"
+            }
+        },
+        "epoch": "0x1ba4",
+        "hash": "0x41939f4e199bdb01bbf274aa4873afdcd6a3980ab3ee663612d94ee142e06666"
+    },
+    "id": 42
+}
