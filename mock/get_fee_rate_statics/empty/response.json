@@ -1,0 +1,8 @@
+{
+    "jsonrpc": "2.0",
+    "result": {
+        "mean": "0x84f",
+        "median": "0x3e8"
+    },
+    "id": 42
+}
