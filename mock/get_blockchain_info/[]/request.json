@@ -1,8 +1,6 @@
 {
   "id": 42,
   "jsonrpc": "2.0",
-  "method": "get_block_median_time",
-  "params": [
-    "0xa7795c73295b5831a0fb868c0c1615881b61c8bd69c03d7f17b9a08372d3c7a5"
-  ]
+  "method": "get_blockchain_info",
+  "params": []
 }
