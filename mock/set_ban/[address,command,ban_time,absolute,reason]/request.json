@@ -1,0 +1,12 @@
+{
+  "id": 42,
+  "jsonrpc": "2.0",
+  "method": "set_ban",
+  "params": [
+    "192.168.0.2",
+    "insert",
+    "0x1ac89236180",
+    true,
+    "set_ban example"
+  ]
+}

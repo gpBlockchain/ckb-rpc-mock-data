@@ -1,0 +1,6 @@
+{
+  "id": 42,
+  "jsonrpc": "2.0",
+  "method": "tx_pool_ready",
+  "params": []
+}

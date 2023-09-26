@@ -1,0 +1,17 @@
+{
+  "id": 42,
+  "jsonrpc": "2.0",
+  "method": "verify_transaction_proof",
+  "params": [
+    {
+      "block_hash": "0x687327b61a7f772abf9b01d90b2c998f662c202c7eb4a3e971fd76af9db521b1",
+      "proof": {
+        "indices": [
+          "0x0"
+        ],
+        "lemmas": []
+      },
+      "witnesses_root": "0x4190ca1eaea605e83bc37e95ba17b4b1423c4e7bf3793a4a7cd4f2120f62f1f3"
+    }
+  ]
+}

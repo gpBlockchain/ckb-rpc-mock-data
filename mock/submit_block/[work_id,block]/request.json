@@ -1,0 +1,59 @@
+{
+  "id": 42,
+  "jsonrpc": "2.0",
+  "method": "submit_block",
+  "params": [
+    "0x16727",
+    {
+      "header": {
+        "compact_target": "0x20010000",
+        "dao": "0x97359d75fdcfbd2e9817c1624e8a23006757e42084c0030000be534ea6c0ff06",
+        "epoch": "0x70801b4000014",
+        "extra_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "nonce": "0x0",
+        "number": "0x8b34",
+        "parent_hash": "0x2b2c85b9def86ca25723f1206d7bb98f4d4bcf8064f3d4eeda264c0189efc7d7",
+        "proposals_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "timestamp": "0x18acc2da3da",
+        "transactions_root": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "version": "0x0"
+      },
+      "extension": "0x4f72ca9c0a2de33bcfc570cbd82cc2c4ec9ab8bbc0d82e9eed272328a7b3f8ae",
+      "uncles": [],
+      "transactions": [
+        {
+          "cell_deps": [],
+          "header_deps": [],
+          "inputs": [
+            {
+              "previous_output": {
+                "index": "0xffffffff",
+                "tx_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
+              },
+              "since": "0x8b34"
+            }
+          ],
+          "outputs": [
+            {
+              "capacity": "0x2dd7535b22",
+              "lock": {
+                "args": "0x8883a512ee2383c01574a328f60eeccbb4d78240",
+                "code_hash": "0x9bd7e06f3ecf4be0f2fcd2188b23f1b9fcc88e5d4b65a8637b17723bbda3cce8",
+                "hash_type": "type"
+              },
+              "type": null
+            }
+          ],
+          "outputs_data": [
+            "0x"
+          ],
+          "version": "0x0",
+          "witnesses": [
+            "0x7a0000000c00000055000000490000001000000030000000310000009bd7e06f3ecf4be0f2fcd2188b23f1b9fcc88e5d4b65a8637b17723bbda3cce801140000008883a512ee2383c01574a328f60eeccbb4d78240210000000000000020302e3131312e3020286161613531353820323032332d30392d313429"
+          ]
+        }
+      ],
+      "proposals": []
+    }
+  ]
+}

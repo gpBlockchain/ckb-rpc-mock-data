@@ -1,0 +1,12 @@
+{
+  "id": 42,
+  "jsonrpc": "2.0",
+  "method": "calculate_dao_maximum_withdraw",
+  "params": [
+    {
+      "index": "0x0",
+      "tx_hash": "0x4cadcb5deb87d9b71dd5597181082076bb4f606de413f269a66c345c7ff0d4c1"
+    },
+    "0xf508fdb1e7692b0d4cec53d3ba98ea42ef1df24c9ee5714248448100c68138ca"
+  ]
+}

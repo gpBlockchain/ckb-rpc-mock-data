@@ -1,0 +1,9 @@
+{
+  "id": 42,
+  "jsonrpc": "2.0",
+  "method": "get_header_by_number",
+  "params": [
+    "0x1",
+    null
+  ]
+}

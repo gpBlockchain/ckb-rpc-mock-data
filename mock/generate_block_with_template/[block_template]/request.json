@@ -1,0 +1,59 @@
+{
+  "id": 42,
+  "jsonrpc": "2.0",
+  "method": "generate_block_with_template",
+  "params": [
+    {
+      "bytes_limit": "0x91c08",
+      "cellbase": {
+        "cycles": null,
+        "data": {
+          "cell_deps": [],
+          "header_deps": [],
+          "inputs": [
+            {
+              "previous_output": {
+                "index": "0xffffffff",
+                "tx_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
+              },
+              "since": "0x2c9c"
+            }
+          ],
+          "outputs": [
+            {
+              "capacity": "0x2dd7bb3809",
+              "lock": {
+                "args": "0x8883a512ee2383c01574a328f60eeccbb4d78240",
+                "code_hash": "0x9bd7e06f3ecf4be0f2fcd2188b23f1b9fcc88e5d4b65a8637b17723bbda3cce8",
+                "hash_type": "type"
+              },
+              "type": null
+            }
+          ],
+          "outputs_data": [
+            "0x"
+          ],
+          "version": "0x0",
+          "witnesses": [
+            "0x7a0000000c00000055000000490000001000000030000000310000009bd7e06f3ecf4be0f2fcd2188b23f1b9fcc88e5d4b65a8637b17723bbda3cce801140000008883a512ee2383c01574a328f60eeccbb4d78240210000000000000020302e3131312e3020286161613531353820323032332d30392d313429"
+          ]
+        },
+        "hash": "0xf7eb4239c2b7105a25b38554a1198a5e33d191c6e298734bdb5bce8acec863ea"
+      },
+      "compact_target": "0x20010000",
+      "current_time": "0x18acb001a9a",
+      "cycles_limit": "0x3b9aca00",
+      "dao": "0xbe0ca8e43d61aa2ea9e2d2081388230019f5f32d204201000086401f4d3aff06",
+      "epoch": "0x708058c000006",
+      "extension": "0x9fff913c6d1674bfd65945f681798924e040c2bbef42e805d018fcc9f51c6248",
+      "number": "0x2c9c",
+      "parent_hash": "0xe27136013ed6cfa87a280abacd373735bfadbde2e0a469fef3c4667cc17eb2ff",
+      "proposals": [],
+      "transactions": [],
+      "uncles": [],
+      "uncles_count_limit": "0x2",
+      "version": "0x0",
+      "work_id": "0x6f7f"
+    }
+  ]
+}

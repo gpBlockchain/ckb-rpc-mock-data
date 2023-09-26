@@ -1,0 +1,10 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "compact_target": "0x20010000",
+    "length": "0x708",
+    "number": "0xc",
+    "start_number": "0x5140"
+  },
+  "id": 42
+}

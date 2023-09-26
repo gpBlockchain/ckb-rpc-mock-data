@@ -1,0 +1,8 @@
+{
+  "id": 42,
+  "jsonrpc": "2.0",
+  "method": "get_block_economic_state",
+  "params": [
+    "0x524c82dd55c9994b2ecc333058726d4ae1941a742641f01b21df18a4f4d568c1"
+  ]
+}

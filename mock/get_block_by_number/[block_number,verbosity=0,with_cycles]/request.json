@@ -1,0 +1,10 @@
+{
+  "id": 42,
+  "jsonrpc": "2.0",
+  "method": "get_block_by_number",
+  "params": [
+    "0x371002",
+    "0x0",
+    true
+  ]
+}

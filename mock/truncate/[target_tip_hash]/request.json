@@ -1,0 +1,8 @@
+{
+  "id": 42,
+  "jsonrpc": "2.0",
+  "method": "truncate",
+  "params": [
+    "0x687327b61a7f772abf9b01d90b2c998f662c202c7eb4a3e971fd76af9db521b1"
+  ]
+}

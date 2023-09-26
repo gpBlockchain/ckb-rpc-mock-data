@@ -1,0 +1,9 @@
+{
+  "jsonrpc": "2.0",
+  "error": {
+    "code": -5,
+    "message": "DaoError: InvalidHeader",
+    "data": "InvalidHeader"
+  },
+  "id": 42
+}

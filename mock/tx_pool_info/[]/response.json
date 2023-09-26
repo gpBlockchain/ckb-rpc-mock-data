@@ -1,0 +1,17 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "last_txs_updated_at": "0x0",
+    "max_tx_pool_size": "0xaba9500",
+    "min_fee_rate": "0x3e8",
+    "orphan": "0x0",
+    "pending": "0x0",
+    "proposed": "0x0",
+    "tip_hash": "0xf63fef86a4d8fce39c79faa6285197307d82d7e4fa5241bf56b25935905e1d6c",
+    "tip_number": "0x8cbf",
+    "total_tx_cycles": "0x0",
+    "total_tx_size": "0x0",
+    "tx_size_limit": "0x7d000"
+  },
+  "id": 42
+}

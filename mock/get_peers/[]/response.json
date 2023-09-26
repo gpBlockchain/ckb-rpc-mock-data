@@ -1,0 +1,74 @@
+{
+  "jsonrpc": "2.0",
+  "result": [
+    {
+      "addresses": [
+        {
+          "address": "/ip4/127.0.0.1/tcp/50273/p2p/QmbbxMu3taFEofD16htzPh4X5atpUGWAdmUVWykBpWCyBd",
+          "score": "0x1"
+        }
+      ],
+      "connected_duration": "0x14569e6",
+      "is_outbound": false,
+      "last_ping_duration": "0x0",
+      "node_id": "QmbbxMu3taFEofD16htzPh4X5atpUGWAdmUVWykBpWCyBd",
+      "protocols": [
+        {
+          "id": "0x65",
+          "version": "3"
+        },
+        {
+          "id": "0x2",
+          "version": "3"
+        },
+        {
+          "id": "0x78",
+          "version": "3"
+        },
+        {
+          "id": "0x66",
+          "version": "3"
+        },
+        {
+          "id": "0x79",
+          "version": "3"
+        },
+        {
+          "id": "0x0",
+          "version": "3"
+        },
+        {
+          "id": "0x67",
+          "version": "3"
+        },
+        {
+          "id": "0x1",
+          "version": "3"
+        },
+        {
+          "id": "0x64",
+          "version": "3"
+        },
+        {
+          "id": "0x6e",
+          "version": "3"
+        },
+        {
+          "id": "0x4",
+          "version": "3"
+        }
+      ],
+      "sync_state": {
+        "best_known_header_hash": null,
+        "best_known_header_number": null,
+        "can_fetch_count": "0x20",
+        "inflight_count": "0x0",
+        "last_common_header_hash": null,
+        "last_common_header_number": null,
+        "unknown_header_list_size": "0x0"
+      },
+      "version": "0.111.0 (aaa5158 2023-09-14)"
+    }
+  ],
+  "id": 42
+}

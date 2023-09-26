@@ -1,0 +1,11 @@
+{
+  "id": 42,
+  "jsonrpc": "2.0",
+  "method": "get_transaction_proof",
+  "params": [
+    [
+      "0xdf8bff69a9de0c41439603ee81447c3e83840771af80ff1467b265cd9ebf9da2"
+    ],
+    "0x27aaab91dc2a568f75386e0580d6c01737a1a4ccc92a7b1fdefc3e0b54df6334"
+  ]
+}

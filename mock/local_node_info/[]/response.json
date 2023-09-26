@@ -1,0 +1,115 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "active": true,
+    "addresses": [
+      {
+        "address": "/ip4/0.0.0.0/tcp/8115",
+        "score": "0x1"
+      }
+    ],
+    "connections": "0x8",
+    "node_id": "QmfHdJHt9SbzZTP9wrNEkpZPCL8FEwaEFXDwEVXNUgBS3T",
+    "protocols": [
+      {
+        "id": "0x64",
+        "name": "/ckb/syn",
+        "support_versions": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "id": "0x67",
+        "name": "/ckb/relay3",
+        "support_versions": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "id": "0x65",
+        "name": "/ckb/relay",
+        "support_versions": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "id": "0x79",
+        "name": "/ckb/filter",
+        "support_versions": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "id": "0x66",
+        "name": "/ckb/tim",
+        "support_versions": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "id": "0x78",
+        "name": "/ckb/lightclient",
+        "support_versions": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "id": "0x6e",
+        "name": "/ckb/alt",
+        "support_versions": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "id": "0x2",
+        "name": "/ckb/identify",
+        "support_versions": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "id": "0x0",
+        "name": "/ckb/ping",
+        "support_versions": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "id": "0x1",
+        "name": "/ckb/discovery",
+        "support_versions": [
+          "2",
+          "2.1",
+          "3"
+        ]
+      },
+      {
+        "id": "0x3",
+        "name": "/ckb/flr",
+        "support_versions": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "id": "0x4",
+        "name": "/ckb/disconnectmsg",
+        "support_versions": [
+          "2",
+          "3"
+        ]
+      }
+    ],
+    "version": "0.111.0 (aaa5158 2023-09-14)"
+  },
+  "id": 42
+}

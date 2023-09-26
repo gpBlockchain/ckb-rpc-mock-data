@@ -1,0 +1,18 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "block_hash": "0x27aaab91dc2a568f75386e0580d6c01737a1a4ccc92a7b1fdefc3e0b54df6334",
+    "proof": {
+      "indices": [
+        "0xc"
+      ],
+      "lemmas": [
+        "0x5c9147068a163c594efd045a3171eed1087cb7462d0285de2885285137afef0d",
+        "0xa86886b27705d81e7e5351ef9371a199b0e525a21f25e28208cce566985cbeec",
+        "0x0846e40c0261edf686aaa481a97995724e6b9e49651eb87ff91a8381c89ce815"
+      ]
+    },
+    "witnesses_root": "0x98c0ea10825b0eb38cb3859b8fd004c64bf97b85f5fa7e3a10eaacacb6b3d3d7"
+  },
+  "id": 42
+}

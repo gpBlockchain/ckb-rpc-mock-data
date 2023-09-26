@@ -1,0 +1,18 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "compact_target": "0x20010000",
+    "dao": "0x08d48435a71ea12e44fea37af28623006fbf0a6f1a0000000099f54b01fbfe06",
+    "epoch": "0x3e80001000000",
+    "extra_hash": "0x45dc633035fa8715285c0181a595f0acae7579c7f9c37af6c534586924a2e1ac",
+    "hash": "0x574d049c3f6dd29bff545034251bac9250ffed9a8c7f1c478a448edebc86ad2b",
+    "nonce": "0x67de5fbaf465a9835dca97e39fae90a9",
+    "number": "0x1",
+    "parent_hash": "0x12a852dcfeefe9dd9caf60fdcadb595a97bf56d854528319167ef8cfed26fdd2",
+    "proposals_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "timestamp": "0x18aca72a0d5",
+    "transactions_root": "0x28b640f06b1938cb34f3f16daeebf3724c7b814603875b6e8d04991cc55ab3a9",
+    "version": "0x0"
+  },
+  "id": 42
+}

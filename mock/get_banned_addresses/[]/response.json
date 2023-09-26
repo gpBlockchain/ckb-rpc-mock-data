@@ -1,0 +1,18 @@
+{
+  "jsonrpc": "2.0",
+  "result": [
+    {
+      "address": "192.168.0.2/32",
+      "ban_reason": "set_ban example",
+      "ban_until": "0x337542837c5",
+      "created_at": "0x18acb04d645"
+    },
+    {
+      "address": "192.168.0.1/32",
+      "ban_reason": "set_ban \ud83d\ude27 ",
+      "ban_until": "0x337542f5bce",
+      "created_at": "0x18acb0bfa4e"
+    }
+  ],
+  "id": 42
+}

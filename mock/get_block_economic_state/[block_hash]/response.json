@@ -1,0 +1,18 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "finalized_at": "0xcb264bf6079af77af3524cee0f4fa91465d8a2760c0987f4fc6590a935dc218b",
+    "issuance": {
+      "primary": "0x18ce922bca",
+      "secondary": "0x7f02ec655"
+    },
+    "miner_reward": {
+      "committed": "0x708",
+      "primary": "0x18ce922bca",
+      "proposal": "0x40c",
+      "secondary": "0x105787838"
+    },
+    "txs_fee": "0xbb8"
+  },
+  "id": 42
+}
