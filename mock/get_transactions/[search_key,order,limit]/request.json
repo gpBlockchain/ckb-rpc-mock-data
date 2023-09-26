@@ -9,7 +9,8 @@
         "hash_type": "type",
         "args": "0x5989ae415bb667931a99896e5fbbfad9ba53a223"
       },
-      "script_type": "lock"
+      "script_type": "lock",
+      "script_search_mode": "prefix"
     },
     "asc",
     "0x64"
