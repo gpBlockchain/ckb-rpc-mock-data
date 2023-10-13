@@ -1,0 +1,18 @@
+# Changelog
+
+
+
+v112
+
+## Added
+
+- `generate_epochs`: A new feature that has been added.
+- `get_transaction/min_replace_fee,fee`: min_replace_fee,fee field added in get_transaction when transaction status is pending
+
+## Changed
+
+- Updated `tx_pool_info/[]`:  min_rbf_rate filed added
+
+## Removed
+
+- Removed `get_transaction/time_added_to_pool`: remove it ,because  min_replace_fee,fee field not in response
