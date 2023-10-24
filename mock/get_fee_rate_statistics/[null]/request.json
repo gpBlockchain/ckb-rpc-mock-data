@@ -2,5 +2,5 @@
   "id": 42,
   "jsonrpc": "2.0",
   "method": "get_fee_rate_statistics",
-  "params": ["0x12"]
+  "params": [null]
 }

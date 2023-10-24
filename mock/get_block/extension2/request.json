@@ -1,0 +1,8 @@
+{
+  "id": 42,
+  "jsonrpc": "2.0",
+  "method": "get_block",
+  "params": [
+    "0x1ebf4c21c28316f37254bd54e83e1a81ed7594967f40fcdfd35e0b3b5fcae9b0"
+  ]
+}
