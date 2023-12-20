@@ -1,0 +1,8 @@
+{
+  "jsonrpc": "2.0",
+  "method": "get_pool_tx_detail_info",
+  "params": [
+    "0x8af3c3c5c41dad05cecaf74debfea35295af82ead98d7ec5c732e4aee1409c5b"
+  ],
+  "id": 64
+}
