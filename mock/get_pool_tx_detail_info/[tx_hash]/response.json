@@ -7,8 +7,13 @@
     "pending_count": "0x1",
     "proposed_count": "0x0",
     "rank_in_pending": "0x1",
-    "score_sortkey": "fee: 0x1D0, ancestors_fee: 0x1D0, weight: 0x1D0, ancestors_weight: 0x1D0",
-    "timestamp": "0x18c8772a291"
+    "score_sortkey": {
+      "ancestors_fee": "0x1d0",
+      "ancestors_weight": "0x1d0",
+      "fee": "0x1d0",
+      "weight": "0x1d0"
+    },
+    "timestamp": "0x18cd8677864"
   },
   "id": 42
 }
