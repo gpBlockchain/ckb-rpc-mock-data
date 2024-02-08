@@ -1,0 +1,74 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "cycles": "0x191d3c",
+    "fee": null,
+    "min_replace_fee": null,
+    "time_added_to_pool": null,
+    "transaction": {
+      "cell_deps": [
+        {
+          "dep_type": "dep_group",
+          "out_point": {
+            "index": "0x0",
+            "tx_hash": "0x5f84f5252197cd3e7c4f6d07d4164e9867d6d83a667fdc7d344e6d709c08ddfe"
+          }
+        }
+      ],
+      "hash": "0x9089fba9b2ac8630370728fafca5ff3652f1dae6c203ec9fca7e580825b4a023",
+      "header_deps": [],
+      "inputs": [
+        {
+          "previous_output": {
+            "index": "0x0",
+            "tx_hash": "0x3867a15db93669dd9427f533618a066925dcb348532ec2489eab367a2167efdd"
+          },
+          "since": "0x0"
+        },
+        {
+          "previous_output": {
+            "index": "0x1",
+            "tx_hash": "0x3867a15db93669dd9427f533618a066925dcb348532ec2489eab367a2167efdd"
+          },
+          "since": "0x0"
+        }
+      ],
+      "outputs": [
+        {
+          "capacity": "0x342770c00",
+          "lock": {
+            "args": "0xc8328aabcd9b9e8e64fbc566c4385c3bdeb219d7",
+            "code_hash": "0x9bd7e06f3ecf4be0f2fcd2188b23f1b9fcc88e5d4b65a8637b17723bbda3cce8",
+            "hash_type": "type"
+          },
+          "type": null
+        },
+        {
+          "capacity": "0x1bc16d640c50ee28",
+          "lock": {
+            "args": "0xc8328aabcd9b9e8e64fbc566c4385c3bdeb219d7",
+            "code_hash": "0x9bd7e06f3ecf4be0f2fcd2188b23f1b9fcc88e5d4b65a8637b17723bbda3cce8",
+            "hash_type": "type"
+          },
+          "type": null
+        }
+      ],
+      "outputs_data": [
+        "0x",
+        "0x"
+      ],
+      "version": "0x0",
+      "witnesses": [
+        "0x55000000100000005500000055000000410000004faae458d238de7c3e0f13fe65809de935b6bb7190e05133a6cfb8b4a8f6f1ec46e34e448b67809bc0208f53eb9709d0727c78c6d5887f49ba9e7646741d5c6b01",
+        "0x"
+      ]
+    },
+    "tx_status": {
+      "block_hash": "0xfdf392899de094426dac8a09d70e4d5dc5caba76ed34d6ba2ab77fbc9570caf4",
+      "block_number": "0x472",
+      "reason": null,
+      "status": "committed"
+    }
+  },
+  "id": 42
+}
